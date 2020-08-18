@@ -6,9 +6,9 @@
  
  |Python Built-In Function| Class level method declaration | Description |
  | --- | --- | --- |
- | print{instance} | __str__(self) | This method return instance string representations. |
- | len{instance} | __len__(self) | This method return length attribute of instance. |
- | del instance| __del__(self) | This method delete instance from memory. |
+ | print{instance} | _ _str__(self) | This method return instance string representations. |
+ | len{instance} | _ _len__(self) | This method return length attribute of instance. |
+ | del instance| _ _del__(self) | This method delete instance from memory. |
  
  - Example. -
    ```python
