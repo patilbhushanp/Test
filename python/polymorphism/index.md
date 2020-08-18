@@ -94,7 +94,7 @@
               return int(num1) + int(num2)
   ```
   
-- Calling add method from NumberAddition class
+- Calling add method from StringAddition class
   ```python
   stringAddition = StringAddition()
   stringAddition.add('12', '12')
@@ -104,4 +104,22 @@
   Addition Initialized...
   Number Addition Initialized...
   24
+  ```
+  
+  ### Creating polymorphism by adding new function:
+  
+  ```python
+  def add(instanceType, param1, param2):
+    if type(instanceType) == NumberAddition or type(instanceType) == StringAddition:
+        return instanceType.add(param1, param2)
+    else:
+        raise NotImplementedError('Method with this parameter is not implemented.')
+  ```
+  
+  ```python
+    add(stringAddition, '12', '15')
+  ```
+  Output =>
+  ```python
+    27
   ```
