@@ -33,8 +33,8 @@ class ClassName():
 **Class creation example**
 
 ```python
-#Class of Student
-class StudentClass():
+#Class for Student Information
+class StudentInfo():
     
     #Class level attribute is available for all isntance of class
     schoolName = 'SBP Internation School'
@@ -77,4 +77,10 @@ class StudentClass():
         else:
             print('RESULT: DISTINCTION')
             return grades[3]
+```
+
+**Usage of class to create object**
+```python
+    studentInfo = StudentInfo('John Smith', 'Pune', [120, 130, 140])
+    StudentInfo.showStudentInformation()
 ```
