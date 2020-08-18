@@ -37,7 +37,7 @@ class ClassName():
 class StudentClass():
     
     #Class level attribute is available for all isntance of class
-    schoolName = 'SNBP Internation School'
+    schoolName = 'SBP Internation School'
     
     #Constructor with argument
     #name - string
