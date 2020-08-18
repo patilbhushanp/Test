@@ -39,7 +39,7 @@
         print('Dog Created')
   ```
 
--- Child class object creation
+- Child class object creation
  ```python
   myDog = Dog()
  ```
