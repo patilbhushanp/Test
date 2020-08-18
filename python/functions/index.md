@@ -110,3 +110,25 @@ Output => [2, 4, 6]
 | num | Input variable |
 | : | A colon indicate upcoming intended block is implementation for function. |
 | num ** 2 | method body |
+
+Example-1 Converting above mentioned square function into lambda expression, -
+```python
+myNumList = [1,2,3,4,5,6]
+mySquareList = list(map(lambda num: num ** 2, myNumList))
+mySquareList
+```
+Output:
+```
+[1, 4, 9, 16, 25, 36]
+```
+
+Example-2 Converting above mentioned isEven function into lambda expression, -
+```python
+myNumList = [1, 2, 3, 4, 5, 6]
+myEvenList = list(filter(lambda num: num % 2 == 0, myNumList))
+myEvenList
+```
+Output:
+```
+[2, 4, 6]
+```
