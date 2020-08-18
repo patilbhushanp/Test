@@ -20,9 +20,9 @@
   ```
   
  - Base class object creation
- ```python
+  ```python
   myAnimal = Animal()
- ```
+  ```
  
   Output=>
   ```
@@ -40,9 +40,9 @@
   ```
 
 - Child class object creation
- ```python
+  ```python
   myDog = Dog()
- ```
+  ```
  
   Output=>
   ```
