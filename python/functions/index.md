@@ -132,3 +132,14 @@ Output:
 ```
 [2, 4, 6]
 ```
+
+Example-3 Reverse string of list, -
+```python
+myNameList = ['Bhushan', 'Sandip', 'Neel', 'Lavanya', 'Nidhi']
+myResultList = list(map(lambda name: name[::-1], myNameList))
+myResultList
+```
+Output:
+```
+['nahsuhB', 'pidnaS', 'leeN', 'aynavaL', 'ihdiN']
+```
