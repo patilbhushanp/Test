@@ -6,10 +6,17 @@
 ```python
 def function_name():
     '''
-       Documentation string to explain function work
+       Documentation regarding function work and parameter information
     '''
     #Function operation implementation
 ```
+
+|keyword | Details |
+| --- | --- |
+| def | definition of function. |
+| function_name | Function name. Snake casing is use as standard for function name. (Snake casing is all character is in lower letter and connected with spaces |
+| : | A colon indicate upcoming intended block is implementation for function. |
+| ''' Documentation ''' | Documentation regarding function work and parameter information |
 
 **args (Variable argument list) keywords:**
 
@@ -88,3 +95,18 @@ print(evenList)
 Output => [2, 4, 6]
 ```
 
+
+**lambda keyword**
+
+-syntax
+```python
+    square = lambda num : num ** 2
+```
+
+|keyword | Details |
+| --- | --- |
+| square | variable name |
+| lambda | lambda keyword |
+| num | Input variable |
+| : | A colon indicate upcoming intended block is implementation for function. |
+| num ** 2 | method body |
