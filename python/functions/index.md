@@ -52,15 +52,19 @@ Calling example, -
 - Map modifies the list with a normal logic that produces another list
 
 ```python
-#Map to return square of each element of list.
-
 # square method
 def square(num):
     return num ** 2
+```
 
+```python
+#Map to return square of each element of list.
 print(map(square, [1, 2, 3, 4, 5]))
 squareList = list(map(square, [1, 2, 3, 4, 5]))
 print(squareList)
+```
+
+```
 Output => [1, 4, 9, 16, 25]
 ```
 
@@ -68,14 +72,19 @@ Output => [1, 4, 9, 16, 25]
 
 - Filter modifies the list with conditional logic that filters out some elements
 ```python
-#Filter to find out even number from list
-
 #is even number function
 def isEvenCheck(num):
     return num ** 2
+```
 
+```python
+#Filter to find out even number from list
 print(filter(isEvenCheck, [1, 2, 3, 4, 5, 6]))
 evenList = list(filter(isEvenCheck, [1, 2, 3, 4, 5, 6]))
 print(evenList)
+```
+
+```
 Output => [2, 4, 6]
 ```
+
