@@ -11,6 +11,7 @@
  | del instance| _ _del__(self) | This method delete instance from memory. |
  
  - Example. -
+ 
    ```python
    #class to store book information.
    class BookInformation():
@@ -28,4 +29,40 @@
        
        def __del__(self):
            print(f'Deleting book information of name - {self.bookName}')
-```
+   ```
+
+   ```python
+   #Creating an custom instance of BookInformation class
+   book = BookInformation('Java Book','Bhushan Patil', 300)
+   ```
+   Output =>
+   ```
+   BookInformation instance created.
+   ```
+
+   ```python
+   #Printing book instance
+   print(book)
+   ```
+   Output =>
+   ```
+   Name - Java Book Author - Bhushan Patil Pages - 300
+   ```
+
+   ```python
+   #Checking length of book.pages attribute.
+   len(book)
+   ```
+   Output =>
+   ```
+   300
+   ```
+
+   ```python
+   #Deleting book instance from memory.
+   del book
+   ```
+   Output =>
+   ```
+   Deleting book information of name - Java Book
+   ```
